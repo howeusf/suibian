@@ -28,7 +28,7 @@ import cn.ofpp.core.Wx;
         // -----------------  以下为演示数据  ------------------------
 
         // new 一个 女友
-        GirlFriend girlFriend = new GirlFriend("王亚亚",
+        GirlFriend girlFriend = new GirlFriend("臭宝贝",
                 "四川省", "宜宾市", "2001-10-30", "2021-08-25", "o6IHO6tW6RZ0h1FiTPRaTASmMaHY");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
